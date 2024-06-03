@@ -84,18 +84,19 @@ nav ul li a:hover {
 	background-color: #eebbc3;
 }
 
-#body-index {
+/* #body-index */
+#main-index {
 	background-color: #232946;
 	margin: 0;
-	padding: 0;
+	padding: 20px;
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
 }
 
-#main-index {
+/* #main-index {
 	padding: 20px;
-}
+} */
 
 .margin_main{
 	margin-bottom: 40px;
