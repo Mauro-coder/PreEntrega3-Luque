@@ -84,7 +84,7 @@ nav ul li a:hover {
 	background-color: #eebbc3;
 }
 
-#body_index {
+#body-index {
 	background-color: #232946;
 	margin: 0;
 	padding: 0;
@@ -93,21 +93,21 @@ nav ul li a:hover {
 	min-height: 100vh;
 }
 
-#main_index {
+#main-index {
 	padding: 20px;
 }
 
-#section_index {
+.margin_main{
 	margin-bottom: 40px;
 }
 
-.mi-lista article {
+.section-milista article {
 	display: inline-block;
 	margin: 5px;
 	vertical-align: top;
 }
 
-.mi-lista article img {
+.section-milista article img {
 	width: 200px;
 	height: 300px;
 	object-fit: cover;
@@ -130,15 +130,14 @@ nav ul li a:hover {
 	background-color: #d4939d;
 }
 
-
-.categorias h2 {
+.explorar-categorias h2 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 30px;
 	color: #232946;
 }
 
-.categorias ul li {
+.explorar-categorias ul li {
 	display: flex;
 	flex-direction: row;
 	color: #232946;
@@ -153,19 +152,19 @@ nav ul li a:hover {
 	align-items: center;
 }
 
-.categorias ul li a {
+.explorar-categorias ul li a {
 	text-decoration: none;
 }
 
-.categorias ul li a:hover {
+.explorar-categorias ul li a:hover {
 	color: #232946;
 }
 
-.categorias ul li a:visited {
+.explorar-categorias ul li a:visited {
 	color: #232946;
 }
 /* Noticias */
-#noticias{
+.section-noticias{
   display: grid;
   grid-template-areas: 
   "calendario calendario aside"
@@ -176,7 +175,7 @@ nav ul li a:hover {
   gap: 15px;
 }
 
-.main_noticias {
+.main-noticias {
   background-color:#232946;
   padding: 50px 0px 200px 50px;
 }
@@ -189,7 +188,7 @@ nav ul li a:hover {
 #noticia2{
   grid-area: noticia2;
 }
-.art_calendario {
+.art-calendario {
 	width: 100%;
 	float: left;
   padding: 30px 0px ;
@@ -200,12 +199,12 @@ nav ul li a:hover {
   justify-content: space-between;
 }
 
-.art_calendario p {
+.art-calendario p {
 	color: #fffffe;
 	font-family: Jaro;
 }
 
-.art_noticias {
+.art-noticias {
 	float: left;
 	display: flex;
 	flex-direction: column;
@@ -214,12 +213,12 @@ nav ul li a:hover {
 }
 
 
-.trailer_kimetsu {
+.trailer-kimetsu {
 	width: 450px;
 	height: 300px;
 }
 
-.art_noticias2{
+.art-noticias2{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -227,7 +226,7 @@ nav ul li a:hover {
 }
 
 /* Contacto */
-.main_contacto {
+.main-contacto {
 	background-color: #eebbc3;
 }
 
@@ -235,7 +234,7 @@ nav ul li a:hover {
 	color: #232946;
 }
 
-.container {
+.form-container {
 	max-width: 600px;
 	margin: 0 auto;
 	padding: 20px;
