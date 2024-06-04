@@ -164,6 +164,24 @@ nav ul li a:hover {
 .explorar-categorias ul li a:visited {
 	color: #232946;
 }
+
+/* TOP */
+.top{
+	display: flex;
+	flex-direction: row;
+	background-color: #b8c1ec;
+	justify-content: center;
+	padding: 30px;
+}
+.top-div-ol li{
+	padding: 15px;
+}
+
+.top-div-ol li img{
+	width: 200px;
+	height: 300px;
+	object-fit: cover;
+}
 /* Noticias */
 .section-noticias{
   display: grid;
