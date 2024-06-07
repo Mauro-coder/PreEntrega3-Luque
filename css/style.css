@@ -6,9 +6,9 @@
 
 main {
 	flex: 1;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 
@@ -155,12 +155,13 @@ header {
 .top{
 	display: flex;
 	flex-direction: row;
-	background-color: #b8c1ec;
+	background-color: #232946;
 	justify-content: center;
 	padding: 30px;
 }
 .top-div-ol li{
 	padding: 15px;
+	color: aliceblue;
 }
 
 .top-div-ol li img{
@@ -168,32 +169,31 @@ header {
 	height: 300px;
 	object-fit: cover;
 }
+
+.top-div-ol a{
+	text-decoration: none;
+}
+
 /* Noticias */
 .section-noticias{
   display: grid;
   grid-template-areas: 
-  "calendario calendario aside"
-  "calendario calendario aside"
-  "noticia1 noticia2 aside";
-  grid-template-rows: 1fr 1fr 1fr ; 
-  grid-template-columns: 1fr 1fr 1fr;
+  "calendario calendario"
+  "noticia1 noticia2";
+  grid-template-rows: 1fr 300px; 
+  grid-template-columns: 1fr 1fr;
   gap: 15px;
 }
 
-@media (max-width: 780px) {
+@media (min-width: 768px) {
 	.section-noticias{
-		display: grid;
-		grid-template-areas: 
-		"calendario calendario"
-		"noticia1 noticia 2"
-		"aside aside";
-		grid-template-rows: 1fr 1fr 100px;
+		grid-template-rows: 1fr 0.5fr;
 		grid-template-columns: 1fr 1fr;
 	}
 }
 .main-noticias {
   background-color:#232946;
-  padding: 50px 0px 200px 50px;
+  padding: 50px 50px 200px 50px;
 }
 #calendario{
   grid-area: calendario;
@@ -204,15 +204,15 @@ header {
 #noticia2{
   grid-area: noticia2;
 }
+
 .art-calendario {
-	width: 100%;
 	float: left;
-  padding: 30px 0px ;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+	padding: 30px 15px ;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .art-calendario p {
@@ -220,25 +220,41 @@ header {
 	font-family: Jaro;
 }
 
+.art-calendario img{
+	width: 100%;
+	height: 100%;
+}
+
 .art-noticias {
 	float: left;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
-	padding: 0px 15px;
+	justify-content: flex-start;
+	padding: 30px 20px;
 }
 
 
 .trailer-kimetsu {
-	width: 450px;
-	height: 300px;
+	width: 100%;
+	height: 100%;
+	
 }
 
 .art-noticias2{
+	float: left;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
-	margin: 0px 15px;
+	justify-content:flex-start;
+	padding: 30px 20px;
+}
+
+.art-noticias2 img{
+	width: 100%;
+	height: 100%;
+}
+
+.section-noticias article h3{
+	padding-bottom: 25px;
 }
 
 /* Contacto */
