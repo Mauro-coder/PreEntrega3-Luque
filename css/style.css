@@ -43,9 +43,16 @@ header {
 	align-items: center;
 	border-bottom: solid 1px #b8c1ec;
 }
+
 .nav-color{
+	background-color: #b8c1ec;
+}
+
+.nav-color-a{
 	color: aliceblue !important;
 }
+
+
 
 .login-button {
 	padding: 8px 15px;
