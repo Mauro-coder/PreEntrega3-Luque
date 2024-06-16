@@ -1,0 +1,26 @@
+.login-button {
+	padding: 8px 15px;
+	background-color: $color-secondary;
+	border: 1px solid $color-secondary;
+	border-radius: 3px;
+	color: $color-text-secondary;
+	cursor: pointer;
+}
+
+.login-button:hover {
+	background-color: $color-secondary;
+}
+
+
+.buttonform {
+	background-color: $color-primary;
+	color: $color-text-primary;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: $color-primary;
+}

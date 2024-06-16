@@ -59,7 +59,6 @@ header {
 	background-color: #eebbc3;
 	border: 1px solid #eebbc3;
 	border-radius: 3px;
-	font-size: 14px;
 	color: #232946;
 	cursor: pointer;
 }
@@ -316,7 +315,6 @@ textarea {
 	color: #fffffe;
 	border: none;
 	padding: 10px 20px;
-	font-size: 16px;
 	border-radius: 5px;
 	cursor: pointer;
 }
