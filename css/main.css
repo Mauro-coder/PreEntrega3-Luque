@@ -4,4 +4,9 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: Jaro;
+  src: url(../assets/fonts/Jaro-Regular-VariableFont_opsz.ttf);
+}
+
 /*# sourceMappingURL=main.css.map */
