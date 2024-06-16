@@ -8,5 +8,21 @@
   font-family: Jaro;
   src: url(../assets/fonts/Jaro-Regular-VariableFont_opsz.ttf);
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: Jaro;
+  color: #fffffe;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
 
 /*# sourceMappingURL=main.css.map */
