@@ -1,0 +1,11 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "Este proyecto forma parte del curso de Desarrollo Web dentro de la Carrera de Desarrollo de CoderHouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
