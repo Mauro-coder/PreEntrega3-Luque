@@ -30,4 +30,30 @@ a, p {
   text-decoration: none;
 }
 
+.login-button {
+  padding: 8px 15px;
+  background-color: #eebbc3;
+  border: 1px solid #eebbc3;
+  border-radius: 3px;
+  color: #232946;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #eebbc3;
+}
+
+.buttonform {
+  background-color: #232946;
+  color: #fffffe;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #232946;
+}
+
 /*# sourceMappingURL=main.css.map */
