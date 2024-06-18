@@ -68,7 +68,7 @@ header {
 }
 
 /* #body-index */
-#main-index {
+.main_index {
 	background-color: #232946;
 	margin: 0;
 	padding: 20px;

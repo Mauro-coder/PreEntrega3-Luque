@@ -1,0 +1,38 @@
+.main_index {
+	background-color: $color-primary;
+	margin: 0;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+    .margin_main{
+        margin-bottom: 40px;
+    }
+
+    .section-milista article {
+        display: inline-block;
+        margin: 5px;
+        vertical-align: top;
+    
+        img {
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+        }
+        
+    }
+
+    .continua-viendo article {
+        display: inline-block;
+        margin: 5px;
+        vertical-align: top;
+    
+        article img {
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+    
+}

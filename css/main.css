@@ -71,6 +71,38 @@ header .nav-color-a {
   color: aliceblue !important;
 }
 
+.main_index {
+  background-color: #232946;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main_index .margin_main {
+  margin-bottom: 40px;
+}
+.main_index .section-milista article {
+  display: inline-block;
+  margin: 5px;
+  vertical-align: top;
+}
+.main_index .section-milista article img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+.main_index .continua-viendo article {
+  display: inline-block;
+  margin: 5px;
+  vertical-align: top;
+}
+.main_index .continua-viendo article article img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
 .h1_form {
   color: #232946;
 }
