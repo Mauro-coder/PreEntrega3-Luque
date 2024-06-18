@@ -1,0 +1,16 @@
+header {
+	background-color: $color-primary;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: solid 1px $color-quaternary;
+
+    .nav-color{
+        background-color: $color-quaternary;
+    }
+
+    .nav-color-a{
+        color: aliceblue !important;
+    }
+}
