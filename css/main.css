@@ -71,6 +71,55 @@ header .nav-color-a {
   color: aliceblue !important;
 }
 
+.h1_form {
+  color: #232946;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form {
+  background-color: #d4939d;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  color: #232946;
+  font-family: Jaro;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+.form_text, .form_email, .form_textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form_textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.buttonform {
+  background-color: #232946;
+  color: #fffffe;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 footer {
   background-color: #232946;
   padding: 20px;

@@ -295,9 +295,7 @@ label {
 	font-weight: bold;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
+.form_text, .form_email, .form_textarea {
 	width: 100%;
 	padding: 8px;
 	font-size: 16px;
@@ -305,7 +303,7 @@ textarea {
 	border: 1px solid #ccc;
 }
 
-textarea {
+.form_textarea {
 	resize: vertical;
 	min-height: 100px;
 }
@@ -317,10 +315,6 @@ textarea {
 	padding: 10px 20px;
 	border-radius: 5px;
 	cursor: pointer;
-}
-
-button:hover {
-	background-color: #232946;
 }
 
 /* Footer */

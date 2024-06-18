@@ -1,0 +1,48 @@
+.h1_form {
+	color: $color-text-secondary;
+}
+
+.form-container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.form {
+	background-color: $color-tertiary;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.form-group {
+	margin-bottom: 20px;
+	color: $color-text-secondary;
+	font-family: Jaro;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+}
+
+.form_text, .form_email, .form_textarea {
+	width: 100%;
+	padding: 8px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+.form_textarea {
+	resize: vertical;
+	min-height: 100px;
+}
+
+.buttonform {
+	background-color: $color-primary;
+	color: $color-text-primary;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
