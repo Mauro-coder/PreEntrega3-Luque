@@ -134,6 +134,19 @@ header .nav-color-a {
   color: #232946;
 }
 
+.main-horario {
+  background-color: #232946;
+}
+
+.div-table {
+  padding: 30px;
+}
+
+.table tbody tr td img {
+  width: 150px;
+  height: 250px;
+}
+
 .h1_form {
   color: #232946;
 }
