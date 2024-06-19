@@ -103,6 +103,37 @@ header .nav-color-a {
   object-fit: cover;
 }
 
+.explorar {
+  background-color: #d4939d;
+}
+.explorar .explorar-categorias h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  color: #232946;
+}
+.explorar .explorar-categorias ul li {
+  display: flex;
+  flex-direction: row;
+  color: #232946;
+  list-style: none;
+  margin: 10px;
+  background-color: #d4939d;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  justify-content: center;
+  align-items: center;
+}
+.explorar .explorar-categorias ul li a {
+  text-decoration: none;
+}
+.explorar .explorar-categorias ul li a:hover {
+  color: #232946;
+}
+.explorar .explorar-categorias ul li a:visited {
+  color: #232946;
+}
+
 .h1_form {
   color: #232946;
 }

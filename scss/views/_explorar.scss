@@ -1,0 +1,35 @@
+.explorar {
+	background-color: $color-tertiary;
+
+    .explorar-categorias h2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        color: $color-text-secondary;
+    }
+
+    .explorar-categorias ul li {
+        display: flex;
+        flex-direction: row;
+        color: $color-text-secondary;
+        list-style: none;
+        margin: 10px;
+        background-color: $color-tertiary;
+        padding: 10px 20px;
+        border: 1px solid #ccc;
+        justify-content: center;
+        align-items: center;
+    
+        a {
+            text-decoration: none;
+        }
+    
+        a:hover {
+            color: $color-text-secondary;
+        }
+    
+        a:visited {
+            color: $color-text-secondary;
+        }
+    }
+}
