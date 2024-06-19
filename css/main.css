@@ -147,6 +147,23 @@ header .nav-color-a {
   height: 250px;
 }
 
+.top {
+  display: flex;
+  flex-direction: row;
+  background-color: #232946;
+  justify-content: center;
+  padding: 30px;
+}
+.top .top-div-ol li {
+  padding: 15px;
+  color: aliceblue;
+}
+.top .top-div-ol li img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
 .h1_form {
   color: #232946;
 }

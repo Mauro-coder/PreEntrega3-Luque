@@ -1,0 +1,21 @@
+.top{
+	display: flex;
+	flex-direction: row;
+	background-color: $color-primary;
+	justify-content: center;
+	padding: 30px;
+
+    .top-div-ol li{
+        padding: 15px;
+        color: aliceblue;
+    
+        img{
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+}
+// .top-div-ol a{
+// 	text-decoration: none;
+// }
