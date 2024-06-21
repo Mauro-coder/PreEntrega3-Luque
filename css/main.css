@@ -17,7 +17,7 @@ h1 {
   font-size: 40px;
 }
 
-h2, li {
+h2 {
   font-size: 30px;
 }
 
@@ -223,8 +223,8 @@ header .nav-color-a {
     grid-template-columns: 1fr 1fr;
   }
 }
-.h1_form {
-  color: #232946;
+.main-contacto {
+  background-color: #eebbc3;
 }
 
 .form-container {
@@ -232,44 +232,33 @@ header .nav-color-a {
   margin: 0 auto;
   padding: 20px;
 }
-
-.form {
+.form-container .h1_form {
+  color: #232946;
+}
+.form-container .form {
   background-color: #d4939d;
   padding: 20px;
   border-radius: 5px;
 }
-
-.form-group {
+.form-container .form .form-group {
   margin-bottom: 20px;
   color: #232946;
   font-family: Jaro;
 }
-
-label {
+.form-container label {
   display: block;
   font-weight: bold;
 }
-
-.form_text, .form_email, .form_textarea {
+.form-container .form_text, .form-container .form_email, .form-container .form_textarea {
   width: 100%;
   padding: 8px;
   font-size: 16px;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
-
-.form_textarea {
+.form-container .form_textarea {
   resize: vertical;
   min-height: 100px;
-}
-
-.buttonform {
-  background-color: #232946;
-  color: #fffffe;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
 }
 
 footer {
