@@ -1,7 +1,8 @@
 .explorar {
 	background-color: $color-tertiary;
+    padding: 30px;
 
-    .explorar-categorias h2 {
+    .explorar-categorias h1 {
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 30px;
@@ -22,6 +23,7 @@
     
         a {
             text-decoration: none;
+            font-size: 30px;
         }
     
         a:hover {

@@ -105,8 +105,9 @@ header .nav-color-a {
 
 .explorar {
   background-color: #d4939d;
+  padding: 30px;
 }
-.explorar .explorar-categorias h2 {
+.explorar .explorar-categorias h1 {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 30px;
@@ -126,6 +127,7 @@ header .nav-color-a {
 }
 .explorar .explorar-categorias ul li a {
   text-decoration: none;
+  font-size: 30px;
 }
 .explorar .explorar-categorias ul li a:hover {
   color: #232946;
