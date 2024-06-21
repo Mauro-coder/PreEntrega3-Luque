@@ -6,22 +6,45 @@
 	flex-direction: column;
 	min-height: 100vh;
 
+    h1 {
+        padding-bottom: 50px;
+    }
+
     .margin_main{
         margin-bottom: 40px;
     }
 
-    .section-milista article {
+    .index-noticias article{
+        display: flex;
+        margin: 5px;
+        vertical-align: top;
+        flex-direction: row;
+        justify-content: center;
+        border-bottom: solid 1px $color-quaternary;
+    
+        img {
+            width: 75%;
+            height: 50%;
+            object-fit: cover;
+        }
+    }
+
+    .section-milista {
+        border-bottom: solid 1px $color-quaternary;
+    
+        article {
         display: inline-block;
         margin: 5px;
         vertical-align: top;
-    
+
+
         img {
             width: 200px;
             height: 300px;
             object-fit: cover;
         }
         
-    }
+    }}
 
     .continua-viendo article {
         display: inline-block;

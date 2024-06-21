@@ -79,8 +79,27 @@ header .nav-color-a {
   flex-direction: column;
   min-height: 100vh;
 }
+.main_index h1 {
+  padding-bottom: 50px;
+}
 .main_index .margin_main {
   margin-bottom: 40px;
+}
+.main_index .index-noticias article {
+  display: flex;
+  margin: 5px;
+  vertical-align: top;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: solid 1px #b8c1ec;
+}
+.main_index .index-noticias article img {
+  width: 75%;
+  height: 50%;
+  object-fit: cover;
+}
+.main_index .section-milista {
+  border-bottom: solid 1px #b8c1ec;
 }
 .main_index .section-milista article {
   display: inline-block;
