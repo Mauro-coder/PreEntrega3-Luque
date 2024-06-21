@@ -164,6 +164,65 @@ header .nav-color-a {
   object-fit: cover;
 }
 
+.main-noticias {
+  background-color: #232946;
+  padding: 50px 50px 200px 50px;
+}
+.main-noticias .section-noticias {
+  display: grid;
+  grid-template-areas: "calendario calendario" "noticia1 noticia2";
+  grid-template-rows: 1fr 300px;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+.main-noticias .section-noticias .art-calendario {
+  float: left;
+  padding: 30px 15px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  grid-area: calendario;
+}
+.main-noticias .section-noticias .art-calendario h3 {
+  padding-bottom: 25px;
+}
+.main-noticias .section-noticias .art-calendario img {
+  width: 100%;
+  height: 100%;
+}
+.main-noticias .section-noticias .art-noticias {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px 20px;
+  grid-area: noticia1;
+}
+.main-noticias .section-noticias .art-noticias .trailer-kimetsu {
+  width: 100%;
+  height: 100%;
+}
+.main-noticias .section-noticias .art-noticias2 {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px 20px;
+  grid-area: noticia2;
+}
+.main-noticias .section-noticias .art-noticias2 img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .section-noticias {
+    grid-template-rows: 1fr 0.5fr !important;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .h1_form {
   color: #232946;
 }
