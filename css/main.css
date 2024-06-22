@@ -186,6 +186,10 @@ header .nav-color-a {
   width: 200px;
   height: 300px;
   object-fit: cover;
+  padding-bottom: 25px;
+}
+.top .top-div-ol li img:hover {
+  transform: scale(1.1);
 }
 
 .main-noticias {
