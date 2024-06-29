@@ -20,6 +20,7 @@
         vertical-align: top;
         flex-direction: row;
         justify-content: center;
+        flex-wrap: wrap;
         border-bottom: solid 1px $color-quaternary;
     
         img {
