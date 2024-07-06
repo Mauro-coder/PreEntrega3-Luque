@@ -114,6 +114,10 @@ header .nav-color-a {
   width: 200px;
   height: 300px;
   object-fit: cover;
+  padding-bottom: 20px;
+}
+.main_index .section-milista article img:hover {
+  transform: scale(1.1);
 }
 .main_index .continua-viendo article {
   display: inline-block;
@@ -124,6 +128,10 @@ header .nav-color-a {
   width: 200px;
   height: 300px;
   object-fit: cover;
+  padding-bottom: 20px;
+}
+.main_index .continua-viendo article img:hover {
+  transform: scale(1.1);
 }
 
 .explorar {

@@ -43,8 +43,12 @@
             width: 200px;
             height: 300px;
             object-fit: cover;
+            padding-bottom: 20px;
         }
-        
+
+        img:hover{
+            transform: scale(1.1);
+        }
     }}
 
     .continua-viendo article {
@@ -56,6 +60,11 @@
             width: 200px;
             height: 300px;
             object-fit: cover;
+            padding-bottom: 20px;
+        }
+        
+        img:hover{
+            transform: scale(1.1);
         }
     }
     
