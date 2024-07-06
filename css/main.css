@@ -64,6 +64,9 @@ header {
   align-items: center;
   border-bottom: solid 1px #b8c1ec;
 }
+header .nav-justified {
+  justify-content: flex-start !important;
+}
 header .nav-color {
   background-color: #b8c1ec;
 }

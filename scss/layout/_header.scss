@@ -6,6 +6,10 @@ header {
 	align-items: center;
 	border-bottom: solid 1px $color-quaternary;
 
+    .nav-justified{
+       justify-content: flex-start !important;
+    }
+
     .nav-color{
         background-color: $color-quaternary;
     }
