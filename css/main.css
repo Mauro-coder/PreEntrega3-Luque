@@ -101,6 +101,7 @@ header .nav-color-a {
   width: 50%;
   height: 50%;
   object-fit: cover;
+  border-radius: 7px;
 }
 .main_index .section-milista {
   border-bottom: solid 1px #b8c1ec;
