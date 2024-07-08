@@ -15,13 +15,11 @@
     }
 
     .index-noticias article{
-        display: flex;
         margin: 5px;
         vertical-align: top;
-        flex-direction: column;
-        align-items: center;
         flex-wrap: wrap;
         border-bottom: solid 1px $color-quaternary;
+        @include flex-column-aligncenter;
     
         img {
             width: 50%;

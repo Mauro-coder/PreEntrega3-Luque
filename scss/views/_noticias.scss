@@ -15,11 +15,9 @@
             float: left;
             padding: 30px 15px ;
             margin-bottom: 20px;
-            display: flex;
-            flex-direction: column;
             align-items: center;
-            justify-content: space-between;
             grid-area: calendario;
+            @include flex-column-space;
         
             h3{
                 padding-bottom: 25px;
@@ -33,11 +31,9 @@
 
         .art-noticias {
             float: left;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
             padding: 30px 20px;
             grid-area: noticia1;
+            @include flex-column-space;
     
             .trailer-kimetsu {
                 width: 100%;
@@ -47,11 +43,9 @@
 
         .art-noticias2{
             float: left;
-            display: flex;
-            flex-direction: column;
-            justify-content:flex-start;
             padding: 30px 20px;
             grid-area: noticia2;
+            @include flex-column-space;
         
             img{
                 width: 100%;

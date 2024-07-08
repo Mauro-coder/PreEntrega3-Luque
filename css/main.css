@@ -89,13 +89,13 @@ header .nav-color-a {
   margin-bottom: 40px;
 }
 .main_index .index-noticias article {
-  display: flex;
   margin: 5px;
   vertical-align: top;
-  flex-direction: column;
-  align-items: center;
   flex-wrap: wrap;
   border-bottom: solid 1px #b8c1ec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .main_index .index-noticias article img {
   width: 50%;
@@ -146,16 +146,16 @@ header .nav-color-a {
   color: #232946;
 }
 .explorar .explorar-categorias ul li {
-  display: flex;
-  flex-direction: row;
   color: #232946;
   list-style: none;
   margin: 10px;
   background-color: #eebbc3;
   padding: 10px 20px;
   border: 1px solid #ccc;
-  justify-content: center;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .explorar .explorar-categorias ul li a {
   text-decoration: none;
@@ -182,11 +182,11 @@ header .nav-color-a {
 }
 
 .top {
+  background-color: #232946;
+  padding: 30px;
   display: flex;
   flex-direction: row;
-  background-color: #232946;
   justify-content: center;
-  padding: 30px;
 }
 .top .top-div-ol {
   columns: 2;
@@ -220,11 +220,11 @@ header .nav-color-a {
   float: left;
   padding: 30px 15px;
   margin-bottom: 20px;
+  align-items: center;
+  grid-area: calendario;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
-  grid-area: calendario;
 }
 .main-noticias .section-noticias .art-calendario h3 {
   padding-bottom: 25px;
@@ -235,11 +235,11 @@ header .nav-color-a {
 }
 .main-noticias .section-noticias .art-noticias {
   float: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   padding: 30px 20px;
   grid-area: noticia1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .main-noticias .section-noticias .art-noticias .trailer-kimetsu {
   width: 100%;
@@ -247,11 +247,11 @@ header .nav-color-a {
 }
 .main-noticias .section-noticias .art-noticias2 {
   float: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   padding: 30px 20px;
   grid-area: noticia2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .main-noticias .section-noticias .art-noticias2 img {
   width: 100%;
