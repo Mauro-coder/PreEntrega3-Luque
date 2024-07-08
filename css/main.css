@@ -239,7 +239,7 @@ header .nav-color-a {
   grid-area: noticia1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .main-noticias .section-noticias .art-noticias .trailer-kimetsu {
   width: 100%;
@@ -251,7 +251,7 @@ header .nav-color-a {
   grid-area: noticia2;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .main-noticias .section-noticias .art-noticias2 img {
   width: 100%;

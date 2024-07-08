@@ -33,7 +33,7 @@
             float: left;
             padding: 30px 20px;
             grid-area: noticia1;
-            @include flex-column-space;
+            @include flex-column-flexstart;
     
             .trailer-kimetsu {
                 width: 100%;
@@ -45,7 +45,7 @@
             float: left;
             padding: 30px 20px;
             grid-area: noticia2;
-            @include flex-column-space;
+            @include flex-column-flexstart;
         
             img{
                 width: 100%;
